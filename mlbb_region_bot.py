@@ -158,7 +158,7 @@ def format_result(result: dict, user_id: str, zone_id: str) -> str:
 <b>📅 Checked:</b> {created}
 
 ━━━━━━━━━━━━━━━━━━━
-🔍 <i>Data from PizzoShop</i>
+🔍 <i>Data from @iwillgoforwardsalone</i>
 """
 
 # ============ TELEGRAM BOT HANDLERS ============
@@ -171,7 +171,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 Hello {user.first_name}! 👋
 
-I can check Mobile Legends account region using PizzoShop.
+I can check Mobile Legends account region.
 
 ━━━━━━━━━━━━━━━━━━━
 <b>📌 How to use:</b>
